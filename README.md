@@ -7,7 +7,7 @@ Pegar lo siguiente:
 
 #!/bin/bash
 # Shell script: temp.sh
-# Autor: Santiago Crespo - Modificado por Marcos Matas
+# Autor: Santiago Crespo - Modificado por Bilal Jebari
 cpu=$(cat /sys/class/thermal/thermal_zone0/temp)
 echo "Equipo => $(hostname)"
 echo "$(date)"
@@ -52,5 +52,9 @@ SwapCached: 0 kB
 SwapTotal: 102396 kB
 SwapFree: 102396 kB
 pi@rpi3:~/apps $
+
+ 
+
+ 
 
  
